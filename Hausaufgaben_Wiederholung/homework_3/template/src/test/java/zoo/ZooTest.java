@@ -16,8 +16,9 @@ public class ZooTest {
 
     @Test
     public void testZoo() {
-        final int lionCount = 4;
-        final int gazelleCount = 8;
+        final int lionCount = 8;
+        final int gazelleCount = 20;
+        final int zookeeperCount = 3;
 
         Set<Lion> lions = new HashSet<>();
         for (String lionFirstName : generateFirstNames(lionCount)) {
@@ -28,12 +29,17 @@ public class ZooTest {
         for (String gazelleFirstName : generateFirstNames(gazelleCount)) {
             gazelles.add(new Gazelle(gazelleFirstName));
         }
+
+        Set<Zookeeper> zookeepers = new HashSet<>();
+        for (String zookeeperFirstName: generateFirstNames(zookeeperCount)) {
+            zookeepers.add(new Zookeeper(zookeeperFirstName));
+        }
         
         // Create zoo
-        Zoo zoo = new Zoo(lions, gazelles);
+        Zoo zoo = new Zoo(lions, gazelles, zookeepers);
         zoo.start(); // Run the zoo for a while
         try {
-            Thread.sleep(5000);
+            Thread.sleep(10000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -50,6 +56,10 @@ public class ZooTest {
         );
         assertThat( // at one time two gazelles should have been in the feeder
                 zoo.feedingRoom.twoGazelles,
+                greaterThan(0)
+        );
+        assertThat( // at one time one zookeeper should have been in the feeder
+                zoo.feedingRoom.oneZookeeper,
                 greaterThan(0)
         );
     }

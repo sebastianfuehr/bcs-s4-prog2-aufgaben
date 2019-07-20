@@ -2,6 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c07899cc-0297-4894-a3d5-a3da04e9a152" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../template/src/main/java/citizens/HausaufgabeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/src/main/java/filterablelist/predicates/ListPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/src/main/java/predicates/CitizenPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/src/main/java/predicates/GermanMenBetween25And35FromCharlottenburg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/src/main/java/zoo/Zookeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../template/src/main/resources/EWR_Ortsteile_2016.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_3/template/src/main/java/deadlocks/Deadlock3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_3/template/src/main/java/deadlocks/Deadlock3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_2/template/src/main/java/citizens/CitizenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_2/template/src/main/java/citizens/CitizenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_2/template/src/main/java/citizens/Citizens.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_2/template/src/main/java/citizens/Citizens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/java/citizenlist/CitizenList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/citizenlist/CitizenList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/java/filterablelist/FilterableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/filterablelist/FilterableList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/java/zoo/FeedingRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/zoo/FeedingRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/java/zoo/Gazelle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/zoo/Gazelle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/java/zoo/Inhabitant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/zoo/Inhabitant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/java/zoo/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/zoo/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/java/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/zoo/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/test/java/citizenlist/CitizenListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/test/java/citizenlist/CitizenListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/test/java/filterablelist/FilterableListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/test/java/filterablelist/FilterableListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/test/java/zoo/ZooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/test/java/zoo/ZooTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -12,8 +32,85 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../template/src/main/java/filterablelist/FilterableList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../template/src/main/java/filterablelist/predicates/ListPredicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../template/src/test/java/filterablelist/FilterableListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../template/src/main/java/citizenlist/CitizenList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../template/src/main/java/zoo/Zoo.java" />
+        <option value="$PROJECT_DIR$/../template/src/test/java/zoo/ZooTest.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/zoo/FeedingRoom.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/zoo/Inhabitant.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/zoo/Gazelle.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/zoo/Lion.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/zoo/Zookeeper.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/predicates/CitizenPredicate.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/citizens/HausaufgabeMain.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/citizens/Citizens.java" />
+        <option value="$PROJECT_DIR$/../template/src/test/java/citizenlist/CitizenListTest.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/filterablelist/predicates/ListPredicate.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/filterablelist/FilterableList.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/citizenlist/predicates/CitizenPredicate.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/citizenlist/CitizenList.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/predicates/GermanMenBetween25And35FromCharlottenburg.java" />
+        <option value="$PROJECT_DIR$/../template/src/test/java/filterablelist/FilterableListTest.java" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,28 +120,148 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
-    <option name="width" value="1924" />
-    <option name="height" value="1202" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1390" />
+    <option name="height" value="1756" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="citizenlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="citizens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="filterablelist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="predicates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="citizenlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="filterablelist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment03-Klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zoo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Hausaufgaben/homework_11/template/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../template/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="citizenlist" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../template/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,6 +275,74 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.FilterableListTest">
+    <configuration name="HausaufgabeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="citizens.HausaufgabeMain" />
+      <module name="prog2-assignment03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="citizens.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CitizenListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prog2-assignment03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="citizenlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="citizenlist" />
+      <option name="MAIN_CLASS_NAME" value="citizenlist.CitizenListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterableListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prog2-assignment03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="filterablelist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="filterablelist" />
+      <option name="MAIN_CLASS_NAME" value="filterablelist.FilterableListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prog2-assignment03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zoo" />
+      <option name="MAIN_CLASS_NAME" value="zoo.ZooTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FilterableListTest" />
+        <item itemvalue="JUnit.CitizenListTest" />
+        <item itemvalue="Application.HausaufgabeMain" />
+        <item itemvalue="JUnit.ZooTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -68,56 +353,309 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563620534469</updated>
-      <workItem from="1563620537870" duration="240000" />
+      <workItem from="1563620537870" duration="7696000" />
+      <workItem from="1563631602700" duration="59000" />
+      <workItem from="1563631782030" duration="1408000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ZooTest - 2019.07.20 at 13h 46m 57s.xml">
+      <configuration name="ZooTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZooTest - 2019.07.20 at 13h 47m 31s.xml">
+      <configuration name="ZooTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZooTest - 2019.07.20 at 13h 56m 23s.xml">
+      <configuration name="ZooTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZooTest - 2019.07.20 at 15h 14m 47s.xml">
+      <configuration name="ZooTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZooTest - 2019.07.20 at 15h 17m 26s.xml">
+      <configuration name="ZooTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZooTest - 2019.07.20 at 15h 21m 57s.xml">
+      <configuration name="ZooTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZooTest - 2019.07.20 at 15h 22m 47s.xml">
+      <configuration name="ZooTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CitizenListTest - 2019.07.20 at 15h 46m 27s.xml">
+      <configuration name="CitizenListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CitizenListTest - 2019.07.20 at 15h 48m 31s.xml">
+      <configuration name="CitizenListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FilterableListTest - 2019.07.20 at 16h 07m 23s.xml">
+      <configuration name="FilterableListTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240000" />
+    <option name="totallyTimeSpent" value="9163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1054" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14354323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297414" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297414" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3297414" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3297414" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/zoo/Zoo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/zoo/FeedingRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#2942#2943#0" expanded="true" />
+            <element signature="e#3081#3082#0" expanded="true" />
+            <element signature="e#3224#3225#0" expanded="true" />
+            <element signature="e#3379#3380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/zoo/Inhabitant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/zoo/Gazelle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/zoo/Lion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/zoo/Zookeeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/test/java/zoo/ZooTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/citizens/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/resources/EWR_Ortsteile_2016.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/citizens/Citizens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/test/java/citizenlist/CitizenListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/citizens/HausaufgabeMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="103" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/filterablelist/FilterableList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/filterablelist/predicates/ListPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/predicates/CitizenPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/predicates/GermanMenBetween25And35FromCharlottenburg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/citizenlist/CitizenList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/test/java/filterablelist/FilterableListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

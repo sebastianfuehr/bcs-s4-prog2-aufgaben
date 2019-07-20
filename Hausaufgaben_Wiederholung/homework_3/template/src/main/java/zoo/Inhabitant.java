@@ -1,5 +1,6 @@
 package zoo;
 
+import java.util.concurrent.Semaphore;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -9,6 +10,12 @@ abstract class Inhabitant implements Runnable {
     private final String typeName = getClass().getSimpleName().toLowerCase();
     private final String name;
     protected Zoo zoo;
+
+    // Synchronisierte Objekte unbedingt private setzen! Sonst kann nicht sichergestellt werden, dass Zugriff nur über
+    // synchronisierte getter-Methoden erfolgt!
+    private static Semaphore gazSem = new Semaphore(2),
+            lionSem = new Semaphore(1),
+            zooKeeperSem = new Semaphore(1);
 
     /**
      * Construct with a name
@@ -39,27 +46,19 @@ abstract class Inhabitant implements Runnable {
     abstract void moveToCompound();
 
     /**
-     * Indicates if this inhabitant may enter the {@link Zoo#feedingRoom}.
-     * 
-     * @return
+     * Move the inhabitant to and from the feeding room in a thread safe way.
      */
-    abstract boolean canFeed();
+    abstract void feeding() throws InterruptedException;
 
     /**
      * The behavior of a zoo inhabitant.
      */
     @Override
     public void run() {
-        ThreadLocalRandom rng = ThreadLocalRandom.current();
         Zoo zoo = getZoo();
         try {
             while(!Thread.interrupted()) {
-                if(canFeed()) {
-                    moveToFeeder();
-                    zoo.feedingRoom.checkInvariants();
-                    Thread.sleep(rng.nextInt(5)); // mampf
-                    moveToCompound();
-                }
+                feeding();
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -73,4 +72,10 @@ abstract class Inhabitant implements Runnable {
     public void setZoo(Zoo zoo) {
         this.zoo = zoo;
     }
+
+    public synchronized Semaphore getLionSemaphore() {return lionSem;}
+
+    public synchronized Semaphore getGazelleSemaphore() {return gazSem;}
+
+    public synchronized Semaphore getZookeeperSemaphore() {return zooKeeperSem;}
 }

@@ -16,7 +16,7 @@ public class Citizens {
     public static File getCitizensFile() {
         return new File(Objects.requireNonNull(
                 Citizens.class.getClassLoader()
-                        .getResource("EWR_Ortsteile_2016.csv")).getFile()
+                        .getResource("EWR_Ortsteile_Berlin_2015.csv")).getFile()
         );
     }
 

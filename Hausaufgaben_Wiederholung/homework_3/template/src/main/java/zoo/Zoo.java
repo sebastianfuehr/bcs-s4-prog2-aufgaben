@@ -13,18 +13,21 @@ public class Zoo extends Thread {
 
     final Set<Lion> lionCompound;
     final Set<Gazelle> gazelleCompound;
+    final Set<Zookeeper> zookeeperBreakRoom;
     final FeedingRoom feedingRoom = new FeedingRoom();
 
     /**
-     * Set up the zoo with a set of lions and a set of gazelles.
+     * Set up the zoo with a set of lions, a set of gazelles and a set of zookeepers.
      *
      * @param lionCompound a set of lions
      * @param gazelleCompound a set of gazelles
+     * @param zookeeperBreakRoom a set of zookeepers
      */
-    public Zoo(Set<Lion> lionCompound, Set<Gazelle> gazelleCompound) {
+    public Zoo(Set<Lion> lionCompound, Set<Gazelle> gazelleCompound, Set<Zookeeper> zookeeperBreakRoom) {
         this.lionCompound = lionCompound;
         this.gazelleCompound = gazelleCompound;
-        List<Thread> threads = new ArrayList<>(lionCompound.size() + gazelleCompound.size());
+        this.zookeeperBreakRoom = zookeeperBreakRoom;
+        List<Thread> threads = new ArrayList<>(lionCompound.size() + gazelleCompound.size() + zookeeperBreakRoom.size());
         for (Lion lion : lionCompound) {
             lion.setZoo(this);
             threads.add(new Thread(lion, lion.getName()));
@@ -32,6 +35,10 @@ public class Zoo extends Thread {
         for (Gazelle gazelle : gazelleCompound) {
             gazelle.setZoo(this);
             threads.add(new Thread(gazelle, gazelle.getName()));
+        }
+        for (Zookeeper zookeeper: zookeeperBreakRoom) {
+            zookeeper.setZoo(this);
+            threads.add(new Thread(zookeeper, zookeeper.getName()));
         }
         this.threads = threads;
     }

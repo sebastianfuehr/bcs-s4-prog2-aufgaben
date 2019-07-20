@@ -3,13 +3,14 @@ package zoo;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.StringJoiner;
+import java.util.concurrent.Semaphore;
 
 /**
  * Represents the shared feeding room. 
  */
 class FeedingRoom {
     final Set<Inhabitant> feeding = new HashSet<>();
-    int oneLion = 0, oneGazelle = 0, twoGazelles = 0; // Statistics
+    int oneLion = 0, oneGazelle = 0, twoGazelles = 0, oneZookeeper = 0; // Statistics
 
     /**
      * Method checks for the validity of the current state.
@@ -28,7 +29,13 @@ class FeedingRoom {
                 gazelleCount++;
             }
         }
-        if (lionCount > 0 && gazelleCount > 0) {
+        long zookeeperCount = 0L;
+        for (Inhabitant i: feeding) {
+            if (i instanceof Zookeeper) {
+                zookeeperCount++;
+            }
+        }
+        if (lionCount > 0 && gazelleCount > 0 || lionCount > 0 && zookeeperCount > 0) {
             System.out.println("Carnage!");
             print();
         } else if (lionCount > 1) {
@@ -37,12 +44,17 @@ class FeedingRoom {
         } else if (gazelleCount > 2) {
             System.out.println("Too many gazelles!");
             print();
+        } else if (zookeeperCount > 1) {
+            System.out.println("Too many zookeepers!");
+            print();
         } else if (gazelleCount == 1) {
             oneGazelle += 1;
         } else if(gazelleCount == 2) {
             twoGazelles += 1;
         } else if (lionCount == 1) {
             oneLion += 1;
+        } else if (zookeeperCount == 1) {
+            oneZookeeper += 1;
         }
     }
 
@@ -57,6 +69,7 @@ class FeedingRoom {
         System.out.printf("One lion: %d\n", oneLion);
         System.out.printf("One gazelle: %d\n", oneGazelle);
         System.out.printf("Two Gazelles: %d\n", twoGazelles);
+        System.out.printf("One zookeeper: %d\n", oneZookeeper);
         System.out.println();
     }
 
@@ -108,4 +121,18 @@ class FeedingRoom {
     void remove(Gazelle g) {
         feeding.remove(g);
     }
+
+    /**
+     * Add a zookeeper to the feeder.
+     *
+     * @param z the zookeeper
+     */
+    void add(Zookeeper z) {feeding.add(z);}
+
+    /**
+     * Remove a zookeeper from the feeder.
+     *
+     * @param z the zookeeper.
+     */
+    void remove(Zookeeper z) {feeding.remove(z);}
 }

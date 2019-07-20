@@ -24,12 +24,14 @@ public class CitizenController {
 
         // 2.2.2
         System.out.println(String.format(
-         "Männer zwischen 25 und 25 Jahren mit deutscher Staatsangehörigkeit in Bezirk Spandau: %d",
+         "Männer zwischen 25 und 25 Jahren mit deutscher Staatsangehörigkeit in Ortsteil Charlottenburg: %f",
             list.stream().filter(c ->
                     c.getGeschlecht() == 1
-                    && c.getAltersgruppe().equals("25_30") || c.getAltersgruppe().equals("30_35")
+                    && (c.getAltersgruppe().equals("25_30") || c.getAltersgruppe().equals("30_35"))
                     && c.getStaat() == 'D'
-                    && c.getBezName().equals("Spandau")).count()));
+                    && c.getOrtsteilName().equals("Charlottenburg"))
+                    .map(Citizen::getHaeufigkeit)
+                    .reduce((e, acc) -> acc+e).get()));
 
         // 2.2.3
         HashMap<String, Double> map1 = new HashMap<>();
@@ -62,7 +64,7 @@ public class CitizenController {
                 }).get().getKey()
         ));
 
-        Citizens.printOrtsteile();
+        // Citizens.printOrtsteile();
     }
 
 }

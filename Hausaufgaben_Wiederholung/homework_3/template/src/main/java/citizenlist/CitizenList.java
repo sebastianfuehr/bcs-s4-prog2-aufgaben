@@ -1,7 +1,9 @@
 package citizenlist;
 
 import citizens.Record;
+import predicates.GermanMenBetween25And35FromCharlottenburg;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -31,7 +33,13 @@ public class CitizenList implements Iterable<Record> {
         return recordList.size();
     }
 
-    // TODO implement filter
+    public CitizenList filter(GermanMenBetween25And35FromCharlottenburg predicate) {
+        List<Record> list = new ArrayList<>();
+        for (Record record: recordList) {
+            if (predicate.test(record)) list.add(record);
+        }
+        return new CitizenList(list);
+    }
 
     /**
      * Returns an iterator of records from the underlying list. 

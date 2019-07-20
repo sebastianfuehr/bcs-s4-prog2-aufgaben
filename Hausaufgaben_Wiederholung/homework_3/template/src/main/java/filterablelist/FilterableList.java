@@ -1,5 +1,8 @@
 package filterablelist;
 
+import filterablelist.predicates.ListPredicate;
+
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -19,7 +22,13 @@ public class FilterableList<T> implements Iterable<T> {
         return list.size();
     }
 
-    // TODO implement filter
+    public FilterableList<T> filter(ListPredicate<T> predicate) {
+        List<T> newList = new ArrayList<T>();
+        for (T entry: list) {
+            if (predicate.test(entry)) newList.add(entry);
+        }
+        return new FilterableList<T>(newList);
+    }
 
     @Override
     public Iterator<T> iterator() {

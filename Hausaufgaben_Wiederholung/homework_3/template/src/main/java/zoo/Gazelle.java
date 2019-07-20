@@ -1,9 +1,13 @@
 package zoo;
 
+import java.util.concurrent.Semaphore;
+import java.util.concurrent.ThreadLocalRandom;
+
 /**
  * Represents a gazelle in the zoo.
  */
 public class Gazelle extends Inhabitant {
+
     public Gazelle(String name) {
         super(name);
     }
@@ -21,7 +25,13 @@ public class Gazelle extends Inhabitant {
     }
 
     @Override
-    boolean canFeed() {
-        return true; // TODO
+    void feeding() throws InterruptedException {
+        ThreadLocalRandom rng = ThreadLocalRandom.current();
+        getGazelleSemaphore().acquire(); // can throw Interrupted Exception
+        moveToFeeder();
+        zoo.feedingRoom.checkInvariants();
+        Thread.sleep(rng.nextInt(5)); // mampf
+        moveToCompound();
+        getGazelleSemaphore().release();
     }
 }

@@ -28,7 +28,6 @@ public class Deadlock3 implements Runnable {
 				}
 			}
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
