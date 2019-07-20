@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aufgabe 2.1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aufgabe 2.1</h1>
+        <h2>Java I/O-Streams</h2>
+        <h3>Unterschied zwischen <code>buffered</code> und <code>unbuffered</code> Lesen und Schreiben:</h3>
+        <p>
+            Alle Lese- und Schreib-Anfragen von unbuffered Streams werden vom zugrundeliegenden Betriebssystem
+            bearbeitet (sehr ineffizient). Buffered Input-Streams lesen Daten aus einem Speicherbereich (Buffer);
+            das native Input-API wird nur aufgerufen, wenn der Buffer leerläuft. Buffered Output-Streams schreiben
+            Daten in einen Buffer und das native API wird nur aufgerufen, wenn der Buffer vollläuft.
+        </p>
+        <h3>Einlesen und Schreiben von Text-Dateien:</h3>
+        <p>
+            Ich würde die Buffered Streams zum Lesen und Schreiben von Text-Dateien verwenden, weil hier keine
+            Serialisierung von Nöten ist (sondern nur „reiner“ Text) und man am wenigsten Zwischenschritte benötigt,
+            um auf eine Datei zuzugreifen.
+        </p>
+        <img src="bsp1.png" width="500px" style="margin-bottom: 20px;">
+        <p>
+            Data Streams würde ich verwenden, wenn ich komplexe Daten habe, welche ich nicht erst per Hand in einem
+            bestimmten Text-Format formatieren möchte.<br/>
+            Für Object Streams gilt das gleiche, weil sich diese für das Speichern von ganzen Objekten eignen,
+            ohne dass ich mich darum kümmern muss, z.B. wie in einem CSV-File für jedes Attribut eine Spalte zu
+            reservieren.
+        </p>
+        <h2>Übersicht Java-Streams</h2>
+        <table class="table table-striped">
+            <tr>
+                <th>Bezeichnung</th><th>Funktion</th>
+            </tr>
+            <tr>
+                <td>Byte Stream</td>
+                <td>
+                    Bearbeiten I/O von rohen Binärdaten. Alle Byte-Stream Klassen erben von <code>InputStream</code>
+                    und <code>OutputStream</code>.
+                </td>
+            </tr>
+            <tr>
+                <td>Character Stream</td>
+                <td>
+                    Bearbeiten I/O von Characters. Außerdem bearbeiten sie automatisch die Übertragung zu und von
+                    dem lokalen Character-Set.
+                </td>
+            </tr>
+            <tr>
+                <td>Buffered Stream</td>
+                <td>Optimieren Input und Output, indem sie die Anzahl der Aufrufe der nativen API reduzieren.</td>
+            </tr>
+            <tr>
+                <td>Data Stream</td>
+                <td>Bearbeiten binäre I/O-Repräsentation von primitiven Datentypen und String-Werten.</td>
+            </tr>
+            <tr>
+                <td>Object Stream</td>
+                <td>Bearbeiten binäre I/O-Repräsentationen von Objekten.</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
