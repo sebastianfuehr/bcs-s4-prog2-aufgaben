@@ -18,7 +18,6 @@ public class NewsRoom {
 			zt.join();
 			set.join();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		

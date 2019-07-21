@@ -16,7 +16,6 @@ public class NewsTicker{
 			try {
 				Thread.sleep(75);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
