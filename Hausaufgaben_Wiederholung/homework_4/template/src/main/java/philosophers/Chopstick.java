@@ -1,5 +1,7 @@
 package philosophers;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * Represents a chopstick used by the philosophers.
  * If a philosopher holds the chopstick and another wants to
@@ -11,17 +13,17 @@ package philosophers;
 public class Chopstick {
 	
 	/** flag showing whether the chopstick is in use */
-	boolean inUse;
+	private boolean inUse;
+
+	private ReentrantLock lock = new ReentrantLock();
 	
 	/**
 	 * Waits until the chopstick is free and picks it up.
-	 * @throws InterruptedException
 	 */
-	public void pickUp() throws InterruptedException {
-		while (isInUse()) {
-			Thread.sleep(100);
-		}
+	public void pickUp() { // Here should have been the read-modify-write problem -> solved with synchronized
+		lock.lock();
 		setInUse(true);
+		lock.unlock();
 	}
 	
 	/**

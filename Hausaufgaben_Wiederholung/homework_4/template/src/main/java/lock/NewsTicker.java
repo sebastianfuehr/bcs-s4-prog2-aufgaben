@@ -3,12 +3,12 @@ package lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class NewsTicker{
-	//ReentrantLock lock = new ReentrantLock();
+	ReentrantLock lock = new ReentrantLock();
 	public NewsTicker(){
 	}
 	
 	public void displayMessage(String message){
-		//lock.lock();
+		lock.lock();
 		System.out.println("\n\n\n\n\n\n\n\n\n");
 		char[] m = message.toCharArray();
 		for(char c : m){
@@ -19,7 +19,7 @@ public class NewsTicker{
 				e.printStackTrace();
 			}
 		}
-		//lock.unlock();
+		lock.unlock();
 	}
 		
 }

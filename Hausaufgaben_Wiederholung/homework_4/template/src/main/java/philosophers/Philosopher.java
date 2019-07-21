@@ -35,7 +35,8 @@ public class Philosopher implements Runnable {
 				leftChopstick.pickUp();
 				System.out.println(this + " picks up his left chopstick");
 				// to provoke a deadlock:
-//				Thread.yield();
+				Thread.sleep(1000);
+				Thread.yield();
 				rightChopstick.pickUp();
 				System.out.println(this + " picks up his right chopstick");
 				eat();
@@ -46,7 +47,6 @@ public class Philosopher implements Runnable {
 				think();
 			}
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
