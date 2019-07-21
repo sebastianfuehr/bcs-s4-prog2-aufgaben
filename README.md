@@ -2,8 +2,8 @@
 Persönliche Lösungen bzw. Lösungsansätze in Form von Quellcode für die Hausaufgaben und Fachmentoriumsaufgaben.  
 Die Vorlagen für die Hausaufgaben wurden durch  
 SNET (https://www.snet.tu-berlin.de/menue/service_centric_networking/welcome/)  
-zur Verfügung gestellt.
-Meine Mitschriften, Zusammenfassungen u.ä. sind <a href="https://www.studydrive.net/kurse/technische-universitaet-berlin/programmieren-2-fuer-wirtschaftsinformatiker/186081?show=documents">hier</a>.
+zur Verfügung gestellt.  
+Mitschriften, Zusammenfassungen u.ä. sind <a href="https://www.studydrive.net/kurse/technische-universitaet-berlin/programmieren-2-fuer-wirtschaftsinformatiker/186081?show=documents">hier</a> zu finden.
 
 ### Ordnerstruktur
 **Fachmentorium_Aufgaben:** Meine Lösungen bzw. Lösungsvorschläge zu den Fachmentoriumsaufgaben.  
