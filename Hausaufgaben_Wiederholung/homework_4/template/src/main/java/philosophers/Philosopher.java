@@ -1,6 +1,7 @@
 package philosophers;
 
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 /**
  * This class represents a philosopher. He is doing the following (in this order):
@@ -32,17 +33,23 @@ public class Philosopher implements Runnable {
 	public void run() {
 		try {
 			while (true) {
+				leftChopstick.lock.lock();
 				leftChopstick.pickUp();
 				System.out.println(this + " picks up his left chopstick");
 				// to provoke a deadlock:
 				Thread.sleep(1000);
 				Thread.yield();
-				rightChopstick.pickUp();
-				System.out.println(this + " picks up his right chopstick");
-				eat();
-				rightChopstick.putDown();
-				System.out.println(this + " puts down his right chopstick");
+				Random ran = new Random();
+				if (rightChopstick.lock.tryLock(ran.nextInt(1500), TimeUnit.MILLISECONDS)) {
+					rightChopstick.pickUp();
+					System.out.println(this + " picks up his right chopstick");
+					eat();
+					rightChopstick.putDown();
+					rightChopstick.lock.unlock();
+					System.out.println(this + " puts down his right chopstick");
+				}
 				leftChopstick.putDown();
+				leftChopstick.lock.unlock();
 				System.out.println(this + " puts down his left chopstick");
 				think();
 			}

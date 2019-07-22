@@ -32,6 +32,8 @@ public class Table<T> implements Iterable<T> {
         return new Table<>(newList);
     }
 
+    // Was funktioniert hierbei nicht?
+    // return collection.stream().reduce(aggregation.initial(), (acc, value) -> aggregation.apply(acc, value));
     /**
      * Reduces this table down to one value by iteratively calling <pre>apply</pre>.
      * Starting with the <pre>initial</pre> value (see {@link Aggregation})
@@ -41,7 +43,12 @@ public class Table<T> implements Iterable<T> {
      * @return The result of the aggregation.
      */
     public <R> R reduce(Aggregation<T, R> aggregation) {
-        return null; // TODO implement me!
+
+        R currResult = aggregation.initial();
+        for (T el: collection) {
+            currResult = aggregation.apply(currResult, el);
+        }
+        return currResult;
     }
 
     /**

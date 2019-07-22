@@ -21,9 +21,18 @@ public class Tables {
     public static String findLongestHeadsign() throws IOException {
         Table<Trip> trips = trips();
 
-        // TODO implement me!
+        /*
+        Implementierung von Table.Aggregation<T, R>() als anonyme Klasse um Table.reduce benutzen zu können.
+         */
+        return trips.reduce(new Table.Aggregation<Trip, String>() {
+            @Override
+            public String initial() {return "";}
 
-        return null;
+            @Override
+            public String apply(String acc, Trip next) {
+                return next.headsign.length() > acc.length() ? next.headsign : acc;
+            }
+        });
     }
 
     /**

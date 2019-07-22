@@ -15,25 +15,14 @@ public class Chopstick {
 	
 	/** flag showing whether the chopstick is in use */
 	boolean inUse;
-	private ReentrantLock lock = new ReentrantLock();
+	public ReentrantLock lock = new ReentrantLock();
 	
 	/**
 	 * Waits until the chopstick is free and picks it up.
 	 * @throws InterruptedException
 	 */
 	public void pickUp() throws InterruptedException {
-		try {
-			if (lock.tryLock(3, TimeUnit.SECONDS)) {
-				/*
-				while (isInUse()) {
-					Thread.sleep(100);
-				}
-				 */
-				setInUse(true);
-			}
-		} finally {
-			lock.unlock();
-		}
+		setInUse(true);
 	}
 	
 	/**

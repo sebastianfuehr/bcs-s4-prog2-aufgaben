@@ -15,15 +15,13 @@ public class Chopstick {
 	/** flag showing whether the chopstick is in use */
 	private boolean inUse;
 
-	private ReentrantLock lock = new ReentrantLock();
+	public ReentrantLock lock = new ReentrantLock();
 	
 	/**
 	 * Waits until the chopstick is free and picks it up.
 	 */
-	public void pickUp() { // Here should have been the read-modify-write problem -> solved with synchronized
-		lock.lock();
+	public void pickUp() { // Here has been the read-modify-write problem, solved in Philosopher class
 		setInUse(true);
-		lock.unlock();
 	}
 	
 	/**
