@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60d0ea82-d829-4437-bd43-537609734fa1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_4/template/src/main/java/philosophers/Chopstick.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_4/template/src/main/java/philosophers/Chopstick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_4/template/src/main/java/philosophers/Philosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_4/template/src/main/java/philosophers/Philosopher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../template/src/main/java/database/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/database/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../template/src/main/java/database/Tables.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/database/Tables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../template/src/main/java/philosophers/Chopstick.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/philosophers/Chopstick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../template/src/main/java/philosophers/Philosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/philosophers/Philosopher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_5/template/src/main/java/sportreporter/LiveTicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_5/template/src/main/java/sportreporter/LiveTicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_5/template/src/main/java/sportreporter/SportReporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_5/template/src/main/java/sportreporter/SportReporter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../template/target/" />
@@ -22,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../template/src/main/java/database/Table.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
@@ -31,20 +29,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../template/src/test/java/database/TableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="172">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../template/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../template/src/main/java/database/Tables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="72">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -52,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../template/src/main/java/database/Trip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
+            <state relative-caret-position="168">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
@@ -93,8 +96,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,6 +169,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,6 +256,7 @@
       <updated>1563702452128</updated>
       <workItem from="1563702455936" duration="2471000" />
       <workItem from="1563782313304" duration="3190000" />
+      <workItem from="1563799784150" duration="30000" />
     </task>
     <servers />
   </component>
@@ -262,13 +266,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5661000" />
+    <option name="totallyTimeSpent" value="5691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17129135" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17289221" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -375,31 +379,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../template/src/main/java/database/Trip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../template/src/test/java/database/TableTest.java">
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/database/Table.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../template/src/main/java/database/Tables.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="72">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../template/src/main/java/database/Table.java">
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/database/Trip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/test/java/database/TableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -34,11 +34,10 @@ public class Kunde implements Runnable {
 			Random random = new Random();
 			System.out.println("\t" + this + ": Wird aufgerufen. Bitte an Platz " + Thread.currentThread().getName() + ". Antrag fuer " + anliegen + " wird bearbeitet.");
 			Thread.sleep(random.nextInt(3000));
+			System.out.println("\t\t" + this + ": Antrag fuer " + anliegen + " bearbeitet. DER NAECHSTE BITTE!");
 		} catch (InterruptedException e) {
 			System.out.println("\t\t" + this + ": Bitte kommen Sie morgen wieder, ihr Anliegen kann gerade nicht bearbeitet werden.");
 		}
-		System.out.println("\t\t" + this + ": Antrag fuer " + anliegen + " bearbeitet. DER NAECHSTE BITTE!");
-
 	}
 
 	@Override

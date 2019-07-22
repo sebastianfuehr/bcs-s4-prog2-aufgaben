@@ -13,6 +13,8 @@ import java.util.concurrent.TimeUnit;
  */
 public class Amt {
 
+	static private int kunden = 40;
+
 	/**
 	 * Represents the number of workplaces for handling a {@link Kunde} 
 	 */
@@ -31,8 +33,31 @@ public class Amt {
 	 * Creates new workplaces for handling a {@link Amt} with some workplaces and starts the work. 
 	 */
 	public static void main(String[] args) throws InterruptedException{
-		
-		
-		
+		ExecutorService executorService = Executors.newFixedThreadPool(arbeitsplaetze);
+
+		Anliegen[] anliegen = Anliegen.values();
+		Random ran = new Random();
+		for (int i=0; i<kunden; i++) {
+			executorService.execute(new Kunde(i, anliegen[ran.nextInt(anliegen.length)]));
+		}
+
+		try {
+			// Lieber ExecutorService.awaitTermination(...) als Thread.sleep(), weil die Threads im Thread-Pool
+			// ja auch früher abgearbeitet sein könnten. In so einem Fall soll das Programm natürlich direkt
+			// fortfahren.
+			executorService.awaitTermination(8000, TimeUnit.MILLISECONDS);
+			executorService.shutdown();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		} finally {
+			if (!executorService.isShutdown()) executorService.shutdown();
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			if (!executorService.isTerminated()) executorService.shutdownNow();
+		}
+		System.out.println("Bürgeramt wurde erfolgreich geschlossen.");
 	}
 }
