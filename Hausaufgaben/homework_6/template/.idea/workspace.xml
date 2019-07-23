@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c55b5e4-d3b2-405d-98e8-a9b568ac0f2d" name="Default Changelist" comment="" />
+    <list default="true" id="9c55b5e4-d3b2-405d-98e8-a9b568ac0f2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Hausaufgaben_Wiederholung/homework_6/prog2-assignment06-klausurvorbereitung/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Hausaufgaben_Wiederholung/homework_6/template/src/main/java/scala2java/ScalaCodeInJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Hausaufgaben_Wiederholung/homework_6/template/src/main/java/standardfunctionalinterfaces/PrimitiveDoubleSupplierInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Hausaufgaben_Wiederholung/homework_6/template/src/main/java/standardfunctionalinterfaces/PrimitiveIntBiFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Hausaufgaben_Wiederholung/homework_6/template/src/main/java/standardfunctionalinterfaces/StandardFunctionalInterfacesAnwendung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Hausaufgaben_Wiederholung/homework_6/template/src/main/java/standardfunctionalinterfaces/TriConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben_Wiederholung/homework_6/template/src/main/java/pathinfo/PathInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben_Wiederholung/homework_6/template/src/main/java/pathinfo/PathInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben_Wiederholung/homework_6/template/src/main/java/scala2java/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben_Wiederholung/homework_6/template/src/main/java/standardfunctionalinterfaces/README" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,29 +28,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/standardfunctionalinterfaces/StandardFunctionalInterfacesClass.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scala2java/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="72">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
-    <option name="y" value="1089" />
-    <option name="width" value="1924" />
-    <option name="height" value="1054" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="960" />
+    <option name="height" value="1052" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -64,6 +77,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment06-T09-Sebastian_Fuehr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="scala2java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="assignment06-T09-Sebastian_Fuehr" type="b2602c69:ProjectViewProjectNode" />
@@ -101,9 +122,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -151,17 +173,19 @@
       <updated>1560101674202</updated>
       <workItem from="1560101678070" duration="759000" />
       <workItem from="1560437999554" duration="647000" />
+      <workItem from="1563888127361" duration="14000" />
+      <workItem from="1563892256186" duration="652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1406000" />
+    <option name="totallyTimeSpent" value="2072000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="1089" width="1924" height="1054" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.032967035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -201,6 +225,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scala2java/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scala2java/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
