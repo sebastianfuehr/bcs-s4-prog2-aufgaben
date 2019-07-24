@@ -37,7 +37,6 @@ class ReduceTask<T, U> extends RecursiveTask<U> {
         } else { // the problem is "small enough", let's reduce
             return list.stream().reduce(identity, accumulator, combiner);
         }
-
     }
 
     private List<ReduceTask<T, U>> splitProblem() {

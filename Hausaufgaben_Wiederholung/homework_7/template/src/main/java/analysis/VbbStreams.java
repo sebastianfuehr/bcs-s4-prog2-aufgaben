@@ -22,7 +22,16 @@ public class VbbStreams {
      * @return An optional long, which is defined if an agency was found, if not it's undefined.
      */
     public static OptionalLong findAgencyId(String agencyName) {
-        throw new RuntimeException("Implement me!");
+        try {
+            return OptionalLong.of(VbbStreams.agencyStream()
+                                                .filter(a -> a.name.contains(agencyName))
+                                                .findFirst()
+                                                .get()
+                                                .id);
+        } catch (IOException | NoSuchElementException e) {
+            System.out.println(String.format("Element id for %s not found. Returned empty OptionalLong.", agencyName));
+            return OptionalLong.empty();
+        }
     }
 
     /**
@@ -32,7 +41,14 @@ public class VbbStreams {
      * @return a stream of routes and their type
      */
     public static Stream<RouteAndType> routesForAgency(long agencyId) {
-        throw new RuntimeException("Implement me!");
+        try {
+            return VbbStreams.routeStream()
+                    .filter(r -> r.agencyId == agencyId)
+                    .map(RouteAndType::new);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     /**
@@ -42,11 +58,28 @@ public class VbbStreams {
      * @return true if all trips of a route have bike allowed
      */
     public static boolean canUseBikeOnRoute(String routeName) {
-        throw new RuntimeException("Implement me!");
+        try {
+            return VbbStreams.tripStream()
+                    .filter(t -> t.routeId.equals(routeName))
+                    .allMatch(t -> t.bikesAllowed);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 
-    public static Map<String, Long> routeStats(long agencyId) throws IOException {
-        throw new RuntimeException("Implement me!");
+    public static Map<String, Long> routeStats(long agencyId) {
+        try {
+            return VbbStreams.routeStream()
+                    .filter(r -> r.agencyId == agencyId)
+                    .map(r -> r.type)
+                    .collect(Collectors.groupingBy(
+                            RouteTypes::getNameForRouteType, Collectors.counting()
+                    ));
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     /**

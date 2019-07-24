@@ -1,18 +1,465 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0d29b2e-6474-4254-a6d6-e742296d545a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_7/template/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_7/template/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_7/template/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_7/template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_7/template/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/java/analysis/VbbStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/analysis/VbbStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/java/database/FilterTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/database/FilterTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/java/database/MapTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/database/MapTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/java/database/ReduceTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/database/ReduceTask.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/../template/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../template/src/main/java/analysis/VbbStreams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../template/src/main/java/analysis/Agency.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../template/src/main/java/analysis/Route.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../template/src/main/java/analysis/RouteTypes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../template/src/main/java/analysis/Trip.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../template/src/test/java/analysis/VbbStreamsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../template/src/main/java/database/ReduceTask.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/database/FilterTask.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/database/MapTask.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/java/analysis/VbbStreams.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2" />
     <option name="y" value="1200" />
     <option name="width" value="1924" />
     <option name="height" value="1054" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="prog2-assignment07-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment07-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment07-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment07-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment07-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment07-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment07-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment07-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment07-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment07-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../S4_Tutor_AWS/les tutorats/les fichiers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Hausaufgaben/homework_7/template/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.VbbStreamsTest">
+    <configuration name="VbbStreamsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prog2-assignment07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="analysis" />
+      <option name="MAIN_CLASS_NAME" value="analysis.VbbStreamsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VbbStreamsTest.testBike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prog2-assignment07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="analysis" />
+      <option name="MAIN_CLASS_NAME" value="analysis.VbbStreamsTest" />
+      <option name="METHOD_NAME" value="testBike" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VbbStreamsTest.testFindBVG" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prog2-assignment07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="analysis" />
+      <option name="MAIN_CLASS_NAME" value="analysis.VbbStreamsTest" />
+      <option name="METHOD_NAME" value="testFindBVG" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VbbStreamsTest.testGroupByTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prog2-assignment07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="analysis" />
+      <option name="MAIN_CLASS_NAME" value="analysis.VbbStreamsTest" />
+      <option name="METHOD_NAME" value="testGroupByTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VbbStreamsTest.testRoutesForAgency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prog2-assignment07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="analysis" />
+      <option name="MAIN_CLASS_NAME" value="analysis.VbbStreamsTest" />
+      <option name="METHOD_NAME" value="testRoutesForAgency" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VbbStreamsTest" />
+        <item itemvalue="JUnit.VbbStreamsTest.testGroupByTask" />
+        <item itemvalue="JUnit.VbbStreamsTest.testBike" />
+        <item itemvalue="JUnit.VbbStreamsTest.testRoutesForAgency" />
+        <item itemvalue="JUnit.VbbStreamsTest.testFindBVG" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0d29b2e-6474-4254-a6d6-e742296d545a" name="Default Changelist" comment="" />
+      <created>1563956681153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563956681153</updated>
+      <workItem from="1563956684766" duration="4349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TableTest_testParFilter - 2019.07.24 at 10h 49m 18s.xml">
+      <configuration name="TableTest.testParFilter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_testParFilter - 2019.07.24 at 10h 56m 46s.xml">
+      <configuration name="TableTest.testParFilter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest - 2019.07.24 at 10h 59m 09s.xml">
+      <configuration name="TableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VbbStreamsTest_testFindBVG - 2019.07.24 at 11h 17m 42s.xml">
+      <configuration name="VbbStreamsTest.testFindBVG" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VbbStreamsTest_testRoutesForAgency - 2019.07.24 at 11h 22m 04s.xml">
+      <configuration name="VbbStreamsTest.testRoutesForAgency" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VbbStreamsTest_testBike - 2019.07.24 at 11h 23m 56s.xml">
+      <configuration name="VbbStreamsTest.testBike" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VbbStreamsTest_testGroupByTask - 2019.07.24 at 11h 34m 03s.xml">
+      <configuration name="VbbStreamsTest.testGroupByTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VbbStreamsTest - 2019.07.24 at 11h 34m 11s.xml">
+      <configuration name="VbbStreamsTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4349000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="1200" width="1924" height="1054" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.3297414" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297414" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/database/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/database/FilterTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/database/MapTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/database/ReduceTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/test/java/database/TableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/analysis/RouteTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/analysis/Trip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/analysis/Agency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/analysis/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/test/java/analysis/VbbStreamsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/java/analysis/VbbStreams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="84" column="7" lean-forward="true" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
