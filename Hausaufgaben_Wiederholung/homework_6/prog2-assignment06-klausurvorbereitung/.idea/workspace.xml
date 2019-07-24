@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eb1c59d-8c13-4fb7-8640-01f29ee152f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../template/src/main/java/scala2java/ScalaCodeInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/PrimitiveDoubleSupplierInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/PrimitiveIntBiFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/StandardFunctionalInterfacesAnwendung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/TriConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_6/template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_6/template/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../template/src/main/java/pathinfo/PathInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/pathinfo/PathInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../template/src/main/java/scala2java/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/scala/movies/Movies.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/scala/movies/Movies.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/../template/target/" />
@@ -29,14 +20,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../template/src/main/java/scala2java/ScalaCodeInJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-              <folding>
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="600">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../template/src/main/scala/movies/Movies.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../template/src/main/scala/movies/Movie.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../template/src/main/scala/movies/User.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../template/src/test/scala/movies/MoviesSpec.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -63,6 +84,7 @@
         <option value="$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/StandardFunctionalInterfacesAnwendung.java" />
         <option value="$PROJECT_DIR$/../template/src/main/java/pathinfo/PathInfo.java" />
         <option value="$PROJECT_DIR$/../template/src/main/java/scala2java/ScalaCodeInJava.java" />
+        <option value="$PROJECT_DIR$/../template/src/main/scala/movies/Movies.scala" />
       </list>
     </option>
   </component>
@@ -73,10 +95,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1052" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2" />
+    <option name="y" value="1200" />
+    <option name="width" value="1924" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -134,6 +157,27 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="movies" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="prog2-assignment06-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment06-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog2-assignment06-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -164,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="ScalaTest.MoviesSpec">
     <configuration name="PathInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pathinfo.PathInfo" />
       <module name="prog2-assignment06" />
@@ -178,6 +222,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoviesSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="prog2-assignment06" />
+      <setting name="path" value="movies.MoviesSpec" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$/../template" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <setting name="jrePath" value="" />
+      <envs />
+      <setting name="testKind" value="Class" />
+      <setting name="path" value="movies.MoviesSpec" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PathInfo" />
+      <item itemvalue="ScalaTest.MoviesSpec" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PathInfo" />
@@ -197,16 +263,34 @@
       <workItem from="1563870741597" duration="56000" />
       <workItem from="1563887717315" duration="403000" />
       <workItem from="1563888177092" duration="3977000" />
+      <workItem from="1563955204049" duration="1286000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MoviesSpec - 2019.07.24 at 10h 11m 13s.xml">
+      <configuration name="MoviesSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoviesSpec - 2019.07.24 at 10h 11m 24s.xml">
+      <configuration name="MoviesSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoviesSpec - 2019.07.24 at 10h 12m 07s.xml">
+      <configuration name="MoviesSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoviesSpec - 2019.07.24 at 10h 13m 18s.xml">
+      <configuration name="MoviesSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="MoviesSpec - 2019.07.24 at 10h 16m 50s.xml">
+      <configuration name="MoviesSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4436000" />
+    <option name="totallyTimeSpent" value="5722000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1052" extended-state="0" />
+    <frame x="-2" y="1200" width="1924" height="1054" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23186813" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11526147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -214,10 +298,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3297414" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3286638" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -286,16 +370,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/scala/movies/User.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/test/scala/movies/MoviesSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/scala/movies/Movie.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../template/src/main/scala/movies/Movies.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../template/src/main/java/scala2java/ScalaCodeInJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="600">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
         </state>
       </provider>
     </entry>
