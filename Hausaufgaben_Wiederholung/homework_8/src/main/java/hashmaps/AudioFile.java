@@ -43,7 +43,6 @@ public class AudioFile {
 			DigestInputStream dis = new DigestInputStream(is, md);
 			while(dis.read()!=-1){}
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		byte[] digest = md.digest();
