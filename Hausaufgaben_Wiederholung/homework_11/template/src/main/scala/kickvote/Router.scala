@@ -3,18 +3,27 @@ package kickvote
 import java.util.UUID
 
 import akka.actor.{Actor, ActorLogging, ActorRef}
+import kickvote.FootballMatch.GetState
 
 /**
   * Represents a router for FootballMatch actors.
   */
 class Router extends Actor with ActorLogging {
   import Router._
-  import Kickvote._
 
   // maps match-ids to ActorRef
   var matches = Map.empty[MatchId, ActorRef]
 
-  override def receive: Receive = ???
+  override def receive: Receive = {
+    case NewMatch(team1, team2) => {
+      val newActorRef: ActorRef = context.actorOf(FootballMatch.props(team1, team2))
+      val matchId = MatchId()
+      matches = matches updated (matchId, newActorRef)
+      sender ! matchId
+    }
+    case MatchEvent(gameId, event) => if (matches.get(gameId).nonEmpty) matches(gameId) ! event
+    case GetMatchState(matchId) => if (matches.get(matchId).nonEmpty) matches(matchId) ! GetState(sender)
+  }
 }
 
 object Router {

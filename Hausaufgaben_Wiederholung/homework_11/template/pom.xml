@@ -17,6 +17,7 @@
         <scala.version>2.12.6</scala.version>
         <encoding>UTF-8</encoding>
         <junit.version>4.11</junit.version>
+        <assembly.version>3.1.1</assembly.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>           
     </properties>

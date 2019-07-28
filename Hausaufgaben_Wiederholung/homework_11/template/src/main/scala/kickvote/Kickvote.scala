@@ -33,5 +33,7 @@ object Kickvote {
   // A player is exchanged for another player
   case class Substitution(minute: Int, playerIn: Player, playerOut: Player) extends Event
 
+  case class Formation(name: String, torwart: Player, verteidiger: Set[Player],
+                       mittelfeld: Set[Player], stuermer: Set[Player])
 
 }
