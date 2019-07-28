@@ -2,67 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eb1c59d-8c13-4fb7-8640-01f29ee152f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../template/src/main/scala/movies/Movies.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/scala/movies/Movies.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/Person.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/enums/FemaleNames.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/enums/MaleNames.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/prog2-assignment05-klausurvorbereitung.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_10/template/src/main/scala/hof/HigherOrderFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_10/template/src/main/scala/hof/HigherOrderFunctions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_10/template/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/hof/HigherOrderFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/hof/HigherOrderFunctions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/kickvote/Webserver.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/kickvote/Webserver.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/leet/Leetspeak.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/leet/Leetspeak.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_5/template/src/main/java/functionalinterface/FunktionaleInterfacesAnwendung.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_5/template/src/main/java/functionalinterface/FunktionaleInterfacesAnwendung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_7/prog2-assignment07-klausurvorbereitung/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_7/prog2-assignment07-klausurvorbereitung/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_7/prog2-assignment07-klausurvorbereitung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_7/prog2-assignment07-klausurvorbereitung/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/../template/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../template/src/main/java/scala2java/ScalaCodeInJava.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../template/src/main/scala/movies/Movies.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../template/src/main/scala/movies/Movie.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../template/src/main/scala/movies/User.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../template/src/test/scala/movies/MoviesSpec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,19 +43,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/PrimitiveDoubleSupplierInterface.java" />
-        <option value="$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/PrimitiveIntBiFunction.java" />
-        <option value="$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/TriConsumer.java" />
-        <option value="$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/StandardFunctionalInterfacesAnwendung.java" />
-        <option value="$PROJECT_DIR$/../template/src/main/java/pathinfo/PathInfo.java" />
-        <option value="$PROJECT_DIR$/../template/src/main/java/scala2java/ScalaCodeInJava.java" />
-        <option value="$PROJECT_DIR$/../template/src/main/scala/movies/Movies.scala" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -95,96 +50,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
-    <option name="y" value="1200" />
-    <option name="width" value="1924" />
-    <option name="height" value="1054" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
+  <component name="ProjectId" id="1OdhkuIf2EPFOPw1EhX1uN87tER" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="prog2-assignment06-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prog2-assignment06-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prog2-assignment06-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prog2-assignment06-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prog2-assignment06-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scala2java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prog2-assignment06-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prog2-assignment06-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prog2-assignment06-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prog2-assignment06-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prog2-assignment06-klausurvorbereitung" type="b2602c69:ProjectViewProjectNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -222,20 +93,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoviesSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+    <configuration name="MoviesSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="prog2-assignment06" />
-      <setting name="path" value="movies.MoviesSpec" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$/../template" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <setting name="jrePath" value="" />
-      <envs />
-      <setting name="testKind" value="Class" />
-      <setting name="path" value="movies.MoviesSpec" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="" />
+      <option name="testPackagePath" value="" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,6 +138,7 @@
       <workItem from="1563887717315" duration="403000" />
       <workItem from="1563888177092" duration="3977000" />
       <workItem from="1563955204049" duration="1286000" />
+      <workItem from="1564313536360" duration="475000" />
     </task>
     <servers />
   </component>
@@ -284,127 +159,19 @@
       <configuration name="MoviesSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5722000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-2" y="1200" width="1924" height="1054" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11526147" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3297414" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3286638" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/README" />
-    <entry file="file://$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/StandardFunctionalInterfacesAnwendung.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="109" lean-forward="true" selection-start-line="9" selection-start-column="109" selection-end-line="9" selection-end-column="109" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/TriConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/PrimitiveIntBiFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../template/src/main/java/standardfunctionalinterfaces/PrimitiveDoubleSupplierInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../template/src/main/java/pathinfo/PathInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../template/src/main/scala/movies/User.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../template/src/test/scala/movies/MoviesSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../template/src/main/scala/movies/Movie.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../template/src/main/scala/movies/Movies.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../template/src/main/java/scala2java/ScalaCodeInJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>

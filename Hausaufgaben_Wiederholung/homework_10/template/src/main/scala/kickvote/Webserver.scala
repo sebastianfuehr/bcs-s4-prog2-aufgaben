@@ -5,13 +5,12 @@ import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Directives._
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
-import kickvote.Router.{MatchEvent, MatchId, NewMatch}
+import kickvote.Router.{GetAllStates, MatchEvent, MatchId, NewMatch}
 
 import scala.concurrent.duration._
 import scala.io.StdIn
 
 object Webserver {
-  import Kickvote._
   import akka.pattern.ask
   implicit val timeout = Timeout(1.second)
 
@@ -28,8 +27,13 @@ object Webserver {
       pathPrefix("matches") {
         pathEndOrSingleSlash {
           get {
-            complete { // complete this with a Future[String] (!) 
-              Future.successful("Implement me!") // TODO
+            complete { // complete this with a Future[String] (!)
+              (routerRef ? GetAllStates)
+                .mapTo[List[Kickvote.State]]
+                .map(list => list
+                              .map(state =>
+                                s"${state.team1.name} ${state.score1} : ${state.team2.name} ${state.score2}")
+                .mkString("\n"))
             }
           }
         }
@@ -54,6 +58,7 @@ object Webserver {
 
   private def scheduleGameEvents(system: ActorSystem, routerRef: ActorRef) = {
     import Kickvote._
+
     import scala.concurrent.duration._
     implicit val dispatcher = system.dispatcher
 

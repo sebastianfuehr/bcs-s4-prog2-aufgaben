@@ -17,7 +17,7 @@ object HigherOrderFunctions {
                 = x => {y => x * y} // Funktion als Rückgabetyp // = x => x * _
 
   def square(m: Double) = m * m
-  val sq: Double => Double = square // siehe 2.7 Eta-Expension
+  val sq: Double => Double = square // siehe 2.7 Eta-Expansion
 
   val sum: (Int, Int) => Int = (x, y) => x + y
 

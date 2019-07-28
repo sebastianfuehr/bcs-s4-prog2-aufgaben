@@ -1,6 +1,8 @@
 package functionalinterface;
 
 import java.util.Arrays;
+import java.util.function.Function;
+import java.util.function.IntFunction;
 
 public class FunktionaleInterfacesAnwendung {
 
@@ -31,6 +33,7 @@ public class FunktionaleInterfacesAnwendung {
         String[] arr1 = {"Kurzes", "Array"};
         String[] arr2 = {"Etwas", "längeres", "Array"};
         System.out.println(betterInstance(arr1, arr2, interface2).length);
+
     }
 
     /**
