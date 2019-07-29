@@ -1,10 +1,10 @@
 package de.berlin.tu.prog2
 
-import java.io.File
+import java.io._
 
 import akka.actor.Actor
 
-import scala.io.Source
+import scala.io._
 
 case class FileToCount(fileName: String)
 case class WordCount(filename: String, count: Int)

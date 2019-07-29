@@ -1,10 +1,22 @@
 package de.berlin.tu.prog2
 
-import java.io.File
+import java.io._
 
-import akka.actor.{Actor, ActorRef, Props}
+import akka.actor.SupervisorStrategy.{Escalate, Restart, Resume, Stop}
+import akka.actor.{Actor, ActorRef, OneForOneStrategy, Props}
+
+import scala.concurrent.duration._
 
 class WordCountMaster extends Actor {
+
+  override val supervisorStrategy = // Aus F. 16 VL 06
+    OneForOneStrategy(maxNrOfRetries = 3, withinTimeRange = 5.seconds) { // .seconds method from scala.concurrent.duration
+      case _: NullPointerException          => Restart
+      case _: ArithmeticException           => Resume
+      case _: IllegalArgumentException      => Stop
+      case _: UnsupportedOperationException => Stop
+      case _: Exception                     => Escalate
+    }
 
   var fileNames: Seq[String] = Nil
   var sortedCount: Seq[(String, Int)] = Nil
