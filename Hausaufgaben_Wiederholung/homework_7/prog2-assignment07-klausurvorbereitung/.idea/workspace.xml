@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0d29b2e-6474-4254-a6d6-e742296d545a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/Person.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/enums/FemaleNames.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/enums/MaleNames.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/prog2-assignment05-klausurvorbereitung.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_10/template/src/main/scala/hof/HigherOrderFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_10/template/src/main/scala/hof/HigherOrderFunctions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework_10/template/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/hof/HigherOrderFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/hof/HigherOrderFunctions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/kickvote/Webserver.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/kickvote/Webserver.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/leet/Leetspeak.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/leet/Leetspeak.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework_5/template/src/main/java/functionalinterface/FunktionaleInterfacesAnwendung.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_5/template/src/main/java/functionalinterface/FunktionaleInterfacesAnwendung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -170,6 +156,7 @@
       <workItem from="1563956684766" duration="4349000" />
       <workItem from="1564312679065" duration="569000" />
       <workItem from="1564313394913" duration="22000" />
+      <workItem from="1564420365274" duration="448000" />
     </task>
     <servers />
   </component>

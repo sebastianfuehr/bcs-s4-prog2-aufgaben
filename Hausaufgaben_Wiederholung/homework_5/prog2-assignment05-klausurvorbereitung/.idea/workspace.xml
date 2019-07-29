@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03050449-539c-48d4-a5b5-eaa52de375d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/Person.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/enums/FemaleNames.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/enums/MaleNames.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prog2-assignment05-klausurvorbereitung.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_10/template/src/main/scala/hof/HigherOrderFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_10/template/src/main/scala/hof/HigherOrderFunctions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework_10/template/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/collections/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/hof/HigherOrderFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/hof/HigherOrderFunctions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../template/src/main/java/functionalinterface/FunktionaleInterfacesAnwendung.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/functionalinterface/FunktionaleInterfacesAnwendung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/java/buergeramt/Amt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/java/buergeramt/Amt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_6/prog2-assignment06-klausurvorbereitung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_6/prog2-assignment06-klausurvorbereitung/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_7/prog2-assignment07-klausurvorbereitung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_7/prog2-assignment07-klausurvorbereitung/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +139,7 @@
       <workItem from="1563799748108" duration="34000" />
       <workItem from="1563799896051" duration="5202000" />
       <workItem from="1564227811166" duration="183000" />
+      <workItem from="1564420875665" duration="837000" />
     </task>
     <servers />
   </component>
@@ -153,7 +151,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

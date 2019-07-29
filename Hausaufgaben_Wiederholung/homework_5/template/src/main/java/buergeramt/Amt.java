@@ -45,12 +45,12 @@ public class Amt {
 			// Lieber ExecutorService.awaitTermination(...) als Thread.sleep(), weil die Threads im Thread-Pool
 			// ja auch früher abgearbeitet sein könnten. In so einem Fall soll das Programm natürlich direkt
 			// fortfahren.
-			executorService.awaitTermination(8000, TimeUnit.MILLISECONDS);
-			executorService.shutdown();
+			if (!executorService.awaitTermination(8000, TimeUnit.MILLISECONDS)) {
+				executorService.shutdown();
+			}
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		} finally {
-			if (!executorService.isShutdown()) executorService.shutdown();
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
