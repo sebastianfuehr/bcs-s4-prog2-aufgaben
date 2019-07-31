@@ -4,14 +4,14 @@ class Humans {}
 
 trait Colleague {
   val name: String
-  def isColleague: Boolean
+  def isColleague(): Boolean
 }
 
-class Human(override val name: String) extends Colleague with Friend {
-  override def isColleague: Boolean = true
-  override def isFriend: Boolean = true
+class Human(val name: String) extends Colleague with Friend {
+  def isColleague(): Boolean = true
+  def isFriend(): Boolean = true
 }
 
-class Man(name: String) extends Human(name) {}
+class Man(override val name: String) extends Human(name) {}
 
-class Woman(name: String) extends Human(name) {}
+class Woman(override val name: String) extends Human(name) {}

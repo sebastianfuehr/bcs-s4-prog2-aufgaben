@@ -11,7 +11,6 @@ class Movie(val id: Int,
             val name: String,
             val year: Int) {
 
-
   def canEqual(other: Any): Boolean = other.isInstanceOf[Movie]
 
   override def equals(other: Any): Boolean = other match {

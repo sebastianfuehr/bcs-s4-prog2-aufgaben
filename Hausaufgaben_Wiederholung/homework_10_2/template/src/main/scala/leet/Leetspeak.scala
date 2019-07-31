@@ -9,15 +9,5 @@ object Leetspeak {
     "W" -> """\/\/""", "X" -> "><", "Y" -> "`/", "Z" -> "z", "Ä" -> "43",
     "Ö" -> "03", "Ü" -> "|_|"
   )
-  def leet(s: String): String = {
-    /*
-    s.map(s => s.toUpper).map(c => {
-      if (l33t(c.toString) != null) l33t(c.toString)
-      else c.toString
-    }).fold("")((acc, c) => acc + c)
-     */
-    s.toUpperCase().flatMap(c => l33t.getOrElse(c.toString, c.toString))
-  }
-
-  def main(args: Array[String]) = println(leet("Leetspeak"))
+  def leet(s: String): String = ???
 }

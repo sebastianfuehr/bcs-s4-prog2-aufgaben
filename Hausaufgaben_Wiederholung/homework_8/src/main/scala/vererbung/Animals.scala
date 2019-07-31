@@ -34,9 +34,9 @@ trait Swimming extends Animal {
 }
 
 class Frigatebird(name: String) extends Bird(name) with Flying {
-  override val flyMessage: String = "flying"
+  val flyMessage: String = "flying"
   override def makeNoise: String = "frigatebird noise"
-  override def fly: Unit = println(flyMessage)
+  def fly: Unit = println(flyMessage)
 }
 
 class Duck(name: String) extends Bird(name) with Flying with Swimming {

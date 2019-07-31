@@ -2,14 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eb1c59d-8c13-4fb7-8640-01f29ee152f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hausaufgaben/homework_5/template/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/Pruefungsamt/src/de/berlin/tu/monitores1/Amt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/Pruefungsamt/src/de/berlin/tu/monitores1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/Pruefungsamt/src/de/berlin/tu/monitores2/Amt2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/Pruefungsamt/src/de/berlin/tu/monitores2/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/Pruefungsamt/src/de/berlin/tu/monitores2/Student2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/Pruefungsamt/src/de/berlin/tu/monitores3/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/Pruefungsamt/src/de/berlin/tu/monitores3/ListGuard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/Pruefungsamt/src/de/berlin/tu/monitores3/Student3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/Pruefungsamt/src/de/berlin/tu/semaphores/Amt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/Pruefungsamt/src/de/berlin/tu/semaphores/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/Pruefungsamt/src/de/berlin/tu/semaphores/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/SenderReceiverProblem/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/SenderReceiverProblem/src/de/berlin/tu/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/SenderReceiverProblem/src/de/berlin/tu/javawaitnotifyexample/ExampleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/SenderReceiverProblem/src/de/berlin/tu/javawaitnotifyexample/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/SenderReceiverProblem/src/de/berlin/tu/javawaitnotifyexample/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework_4/prog2-assignment04-klausurvorbereitung/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework_4/prog2-assignment04-klausurvorbereitung/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework_4/prog2-assignment04-klausurvorbereitung/.idea/prog2-assignment04-klausurvorbereitung.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework_4/template/src/main/java/producerconsumerproblemwithcontainer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework_4/template/src/main/java/producerconsumerproblemwithcontainer/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework_4/template/src/main/java/producerconsumerproblemwithcontainer/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework_4/template/src/main/java/producerconsumerproblemwithcontainer/ProducerConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/leet/Leetspeak.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_10/template/src/main/scala/leet/Leetspeak.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_4/prog2-assignment04-klausurvorbereitung/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_4/prog2-assignment04-klausurvorbereitung/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_4/prog2-assignment04-klausurvorbereitung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_4/prog2-assignment04-klausurvorbereitung/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_4/template/.attach_pid15665" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Eigene_Uebungsaufgaben/Pruefungsamt/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_4/template/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_4/template/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_5/prog2-assignment05-klausurvorbereitung/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework_5/template/src/main/java/buergeramt/Amt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_5/template/src/main/java/buergeramt/Amt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../homework_7/prog2-assignment07-klausurvorbereitung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_7/prog2-assignment07-klausurvorbereitung/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template/src/main/scala/movies/Movie.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../template/src/main/scala/movies/Movie.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_8/src/main/scala/vererbung/Animals.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_8/src/main/scala/vererbung/Animals.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_8/src/main/scala/vererbung/Friend.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_8/src/main/scala/vererbung/Friend.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework_8/src/main/scala/vererbung/Humans.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework_8/src/main/scala/vererbung/Humans.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +156,10 @@
       <workItem from="1563888177092" duration="3977000" />
       <workItem from="1563955204049" duration="1286000" />
       <workItem from="1564313536360" duration="475000" />
-      <workItem from="1564420792951" duration="630000" />
+      <workItem from="1564420792951" duration="1158000" />
+      <workItem from="1564502716780" duration="1339000" />
+      <workItem from="1564561484005" duration="283000" />
+      <workItem from="1564562171776" duration="9000" />
     </task>
     <servers />
   </component>
