@@ -6,6 +6,7 @@ zur Verfügung gestellt.
 Mitschriften, Zusammenfassungen u.ä. sind <a href="https://www.studydrive.net/kurse/technische-universitaet-berlin/programmieren-2-fuer-wirtschaftsinformatiker/186081?show=documents">hier</a> zu finden.
 
 ### Ordnerstruktur
-**Fachmentorium_Aufgaben:** Meine Lösungen bzw. Lösungsvorschläge zu den Fachmentoriumsaufgaben.  
+**Beispiel:** Word Count Example aus der Vorlesung.  
+**Eigene_Uebungsaufgaben:** Selbst erstellte Übungsaufgaben zum Tranieren vom Erzeuger-Verbraucher Problem und der Verwendung von `wait()` und `notify()`.  
 **Hausaufgaben:** Meine Lösungen zu den Hausaufgaben während des Semesters.  
 **Hausaufgaben_Wiederholung:** Meine Lösungen bzw. Lösungsansätze zu den Hausaufgaben in der Klausurenphase. 
